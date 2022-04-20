@@ -1,4 +1,29 @@
-.light-color{
-    background-color: #e3f2fd;
+:root {
+  --light-yellow: #fff475;
+  --light-blue: #e3f2fd;
 }
 
+.light-color {
+  background-color: var(--light-blue);
+}
+
+.text-color {
+  background-color: var(--light-yellow);
+}
+
+.img-size {
+  height: 100%;
+}
+
+.cursor-poi {
+  cursor: pointer;
+}
+
+.img-size:hover {
+  opacity: 0.7;
+  background-color: red;
+}
+
+.w-95 {
+  width: 95%;
+}
